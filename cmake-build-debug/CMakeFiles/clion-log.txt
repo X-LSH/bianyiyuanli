@@ -1,0 +1,35 @@
+"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\yang\CLionProjects\untitled6
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+CMake Error at CMakeLists.txt:2 (project):
+  The CMAKE_C_COMPILER:
+
+    C:/MinGW/bin/gcc.exe
+
+  is not a full path to an existing compiler tool.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CC" or the CMake cache entry CMAKE_C_COMPILER to the full path to
+  the compiler, or to the compiler name if it is in the PATH.
+
+
+CMake Error at CMakeLists.txt:2 (project):
+  The CMAKE_CXX_COMPILER:
+
+    C:/MinGW/bin/g++.exe
+
+  is not a full path to an existing compiler tool.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+  to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/yang/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/yang/CLionProjects/untitled6/cmake-build-debug/CMakeFiles/CMakeError.log".
+Cannot read C:\Users\yang\CLionProjects\untitled6\cmake-build-debug\CMakeFiles\3.13.4\CMakeCCompiler.cmake
+Cannot read C:\Users\yang\CLionProjects\untitled6\cmake-build-debug\CMakeFiles\3.13.4\CMakeCXXCompiler.cmake
+
+Cannot get compiler information:
+	Cannot run program "C:\MinGW\bin\g++.exe" (in directory "C:\Users\yang\CLionProjects\untitled6\cmake-build-debug"): CreateProcess error=2, 系统找不到指定的文件。
